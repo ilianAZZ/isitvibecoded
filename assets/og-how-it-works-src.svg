@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="0.35" r="0.6">
+      <stop offset="0" stop-color="#4f46e5" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#4f46e5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- badge -->
+  <rect x="80" y="82" width="220" height="44" rx="22" fill="#4f46e5" fill-opacity="0.18"/>
+  <circle cx="106" cy="104" r="6" fill="#a5b4fc"/>
+  <text x="124" y="112" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#c7d2fe">THE TECHNOLOGY</text>
+
+  <!-- headline -->
+  <text x="80" y="238" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="800" fill="#ffffff" letter-spacing="-2">How the engine</text>
+  <text x="80" y="336" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="800" letter-spacing="-2"><tspan fill="url(#brand)">actually</tspan><tspan fill="#ffffff"> works</tspan></text>
+
+  <text x="80" y="410" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="500" fill="#94a3b8">Inside the patented 6-stage forensic pipeline behind</text>
+  <text x="80" y="452" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="500" fill="#94a3b8">every AI-code-detection verdict.</text>
+
+  <!-- step chips -->
+  <g font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#c7d2fe">
+    <rect x="80"  y="502" width="150" height="46" rx="23" fill="#ffffff" fill-opacity="0.06" stroke="#3730a3" stroke-opacity="0.5"/>
+    <text x="106" y="531">Wi-Fi tunnel</text>
+    <rect x="246" y="502" width="196" height="46" rx="23" fill="#ffffff" fill-opacity="0.06" stroke="#3730a3" stroke-opacity="0.5"/>
+    <text x="272" y="531">Coffee spectrometry</text>
+    <rect x="458" y="502" width="186" height="46" rx="23" fill="#ffffff" fill-opacity="0.06" stroke="#3730a3" stroke-opacity="0.5"/>
+    <text x="484" y="531">Lunar commits</text>
+  </g>
+
+  <!-- author + url -->
+  <text x="80" y="600" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#818cf8">isitvibecoded.iazz.fr<tspan fill="#64748b" font-weight="500">  ·  by Ilian Azz</tspan></text>
+
+  <!-- gauge -->
+  <g transform="translate(1010,250)">
+    <circle r="112" fill="none" stroke="#1f2544" stroke-width="18"/>
+    <circle r="112" fill="none" stroke="url(#brand)" stroke-width="18" stroke-linecap="round"
+            stroke-dasharray="703.7" stroke-dashoffset="70.4" transform="rotate(-90)"/>
+    <text y="4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800" fill="#ffffff">90%</text>
+    <text y="42" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="3" fill="#94a3b8">AI VIBE</text>
+  </g>
+</svg>

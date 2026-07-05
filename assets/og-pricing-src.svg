@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#1e1b4b"/></linearGradient>
+<linearGradient id="brand" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#818cf8"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.35" r="0.6"><stop offset="0" stop-color="#4f46e5" stop-opacity="0.35"/><stop offset="1" stop-color="#4f46e5" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="630" fill="url(#bg)"/><rect width="1200" height="630" fill="url(#glow)"/>
+<rect x="80" y="86" width="150" height="44" rx="22" fill="#4f46e5" fill-opacity="0.18"/>
+<circle cx="106" cy="108" r="6" fill="#a5b4fc"/>
+<text x="124" y="116" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#c7d2fe">PRICING</text>
+<text x="80" y="250" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="800" fill="#ffffff" letter-spacing="-2">Simple <tspan fill="url(#brand)">pricing</tspan></text>
+<text x="80" y="330" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="500" fill="#94a3b8">Hobby · Pro · Enterprise. Occasionally in stock.</text>
+<g transform="translate(80,400)" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="320" height="120" rx="16" fill="#ffffff" fill-opacity="0.05" stroke="#312e81"/>
+<text x="26" y="46" font-size="22" font-weight="700" fill="#c7d2fe">Hobby</text><text x="26" y="92" font-size="40" font-weight="800" fill="#fff">€0</text>
+<rect x="345" y="0" width="320" height="120" rx="16" fill="#4f46e5" fill-opacity="0.15" stroke="#818cf8"/>
+<text x="371" y="46" font-size="22" font-weight="700" fill="#c7d2fe">Pro</text><text x="371" y="92" font-size="40" font-weight="800" fill="#fff">€29</text>
+<rect x="690" y="0" width="320" height="120" rx="16" fill="#ffffff" fill-opacity="0.05" stroke="#312e81"/>
+<text x="716" y="46" font-size="22" font-weight="700" fill="#c7d2fe">Enterprise</text><text x="716" y="92" font-size="36" font-weight="800" fill="#fff">Let's talk</text>
+</g>
+<text x="80" y="590" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#818cf8">isitvibecoded.iazz.fr/pricing</text>
+</svg>

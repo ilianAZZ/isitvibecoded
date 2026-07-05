@@ -1,0 +1,17 @@
+services:
+  isitvibecoded:
+    build: .
+    image: isitvibecoded:latest
+    container_name: isitvibecoded
+    restart: unless-stopped
+    ports:
+      - "9220:8080"
+    environment:
+      PHP_CLI_SERVER_WORKERS: "8"
+    # Traefik labels — remove if you front it with something else.
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.isitvibecoded.rule=Host(`isitvibecoded.iazz.fr`)"
+      - "traefik.http.routers.isitvibecoded.entrypoints=websecure"
+      - "traefik.http.routers.isitvibecoded.tls.certresolver=letsencrypt"
+      - "traefik.http.services.isitvibecoded.loadbalancer.server.port=8080"

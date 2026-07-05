@@ -1,0 +1,10 @@
+.git
+.gitignore
+*.md
+assets/*-src.svg
+assets/og-src.svg
+node_modules
+.DS_Store
+scratchpad
+scratch*
+/tmp

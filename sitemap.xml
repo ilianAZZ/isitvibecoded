@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://isitvibecoded.iazz.fr/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://isitvibecoded.iazz.fr/assets/og.png</image:loc>
+      <image:title>Is It Vibe Coded? — Free AI Code Detection</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://isitvibecoded.iazz.fr/how-it-works</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://isitvibecoded.iazz.fr/assets/og-how-it-works.png</image:loc>
+      <image:title>How the AI code detection engine actually works</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://isitvibecoded.iazz.fr/pricing</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://isitvibecoded.iazz.fr/assets/og-pricing.png</image:loc>
+      <image:title>Is It Vibe Coded? pricing — Hobby, Pro and Enterprise</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://isitvibecoded.iazz.fr/about</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://isitvibecoded.iazz.fr/assets/og-about.png</image:loc>
+      <image:title>Ilian Azz — creator of Is It Vibe Coded?</image:title>
+    </image:image>
+  </url>
+</urlset>

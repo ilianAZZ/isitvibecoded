@@ -1,0 +1,16 @@
+/* TEAM */
+
+Creator & Developer: Ilian Azz
+Site: https://ilianazz.com
+Twitter/X: @ilianazz_
+GitHub: @ilianAZZ
+Location: Paris, France
+
+/* SITE */
+
+Last update: 2026-07-05
+Language: English
+Doctype: HTML5
+Standards: HTML5, CSS3, JSON-LD, Open Graph
+Components: Vanilla JS, PHP (built-in server), GD (on-the-fly OG images)
+Vibes: 0% — every line placed by a human. Allegedly.

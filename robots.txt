@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Allow: /api/og
+Disallow: /api/meta
+
+Sitemap: https://isitvibecoded.iazz.fr/sitemap.xml
