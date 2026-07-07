@@ -148,7 +148,7 @@ button.analyze:disabled{opacity:.6;cursor:not-allowed;transform:none;box-shadow:
 .app{display:block;text-decoration:none;color:inherit;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px;transition:transform .12s,box-shadow .12s,border-color .12s}
 .app:hover{transform:translateY(-2px);box-shadow:var(--shadow);border-color:#d7dbe0}
 .app .top{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
-.app .av{width:44px;height:44px;border-radius:11px;object-fit:cover;background:#fff;border:1px solid var(--line)}
+.app .av{width:44px;height:44px;border-radius:11px;object-fit:cover;background:#fff;}
 .app h4{margin:0 0 2px;font-size:16px;letter-spacing:-.01em}
 .app .url{font-size:12.5px;color:var(--muted);word-break:break-all}
 .app .blurb{font-size:13px;color:var(--muted);margin-top:8px}

@@ -6,6 +6,9 @@
 const HUMAN_WHITELIST = [
   "isitvibecoded.iazz.fr","iazz.fr",
   "ilianazz.com","mutka.app","headofscience.fr",
+  "github.com/ilianazz","github.com/ilianazz/mutka",
+  "kadrella.com", "unlimitedmessaging.app",
+  "wealthdrop.io"
 ];
 
 /* ---- CONFIG: GitHub owners whose repos are certified human ---- */
@@ -15,7 +18,11 @@ const HUMAN_GITHUB_OWNERS = ["ilianazz"];
 const BEST_HUMAN_APPS = [
   { name:"Ilian Azz",       url:"https://ilianazz.com",     icon:"/assets/icons/ilianazz.png",     blurb:"Personal portfolio — every pixel placed by a human hand." },
   { name:"Mutka",           url:"https://mutka.app",        icon:"/assets/icons/mutka.png",        blurb:"Hand-forged product. No autocomplete was harmed." },
-  { name:"Head of Science", url:"https://headofscience.fr", icon:"/assets/icons/headofscience.png",blurb:"Artisanal tutoring platform, coded on real caffeine." },
+  { name:"Kadrella",        url:"https://kadrella.com", icon:"/assets/icons/kadrella.png",blurb:"Artisanal tutoring platform, coded on real caffeine since 2023." },
+  { name:"Unlimited Messaging", url:"https://unlimitedmessaging.app", icon:"/assets/icons/unlimitedmessaging.png", blurb:"Secure, unlimited and free API to send messages." },
+  { name:"Wealthdrop", url:"https://wealthdrop.io", icon:"/assets/icons/wealthdrop.png", blurb:"Share your wealth. Not your data. Works without banking link." },
+  { name:"Head of Science", url:"https://headofscience.fr", icon:"/assets/icons/headofscience.png", blurb:"Computer Science & Mathematics private lessons." },
+
 ];
 
 /* ---- Findings, grouped by category ---- */
@@ -135,7 +142,7 @@ function isHumanTarget(t){
 function buildReport(t){
   const rand=seededFrom(t.key);
   const human=isHumanTarget(t);
-  const score=human?0:(80+Math.floor(rand()*21)); // 80–100
+  const score=human?3:(80+Math.floor(rand()*21)); // 80–100
 
   // deterministic shuffle
   const arr=FINDINGS_POOL.slice();
