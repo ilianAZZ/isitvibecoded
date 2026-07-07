@@ -23,11 +23,11 @@ Dockerfile · docker-compose.yml
 
 ## Features
 
-- **Deterministic** — the same target always yields the same score & findings (seeded by host, or host+path for GitHub).
-- **Deep links** — `/google.fr` or `/github.com/owner/repo` auto-analyzes that target.
-- **Live preview** — pulls the target's real favicon, OG image, title & description via `/api/meta`.
-- **GitHub-aware** — repo/user URLs use the GitHub API for real name, description, language & stars, with GitHub's own social-card image.
-- **Real SEO** — per-page `<title>`/description/keywords, robots + X-Robots-Tag, canonical, per-page Open Graph + Twitter cards, JSON-LD (WebSite+SearchAction, Person, Article, FAQ, Breadcrumb, Product), sitemap, manifest.
+- **Deterministic** - the same target always yields the same score & findings (seeded by host, or host+path for GitHub).
+- **Deep links** - `/google.fr` or `/github.com/owner/repo` auto-analyzes that target.
+- **Live preview** - pulls the target's real favicon, OG image, title & description via `/api/meta`.
+- **GitHub-aware** - repo/user URLs use the GitHub API for real name, description, language & stars, with GitHub's own social-card image.
+- **Real SEO** - per-page `<title>`/description/keywords, robots + X-Robots-Tag, canonical, per-page Open Graph + Twitter cards, JSON-LD (WebSite+SearchAction, Person, Article, FAQ, Breadcrumb, Product), sitemap, manifest.
 
 ## Run
 
@@ -45,8 +45,8 @@ php -S 0.0.0.0:8080 router.php
 
 Both lists live at the top of `assets/js/engine.js`:
 
-- `HUMAN_WHITELIST` — domains reported as 100% human (0% AI).
-- `BEST_HUMAN_APPS` — the cards at the bottom of the homepage.
+- `HUMAN_WHITELIST` - domains reported as 100% human (0% AI).
+- `BEST_HUMAN_APPS` - the cards at the bottom of the homepage.
 
 Add more absurd findings in `FINDINGS_POOL` (each tagged with a category in `CATS`).
 
@@ -54,5 +54,5 @@ Add more absurd findings in `FINDINGS_POOL` (each tagged with a category in `CAT
 
 - The container runs the PHP CLI server with `PHP_CLI_SERVER_WORKERS=8` so a slow remote
   metadata fetch never blocks static assets. Put it behind Traefik/Caddy/nginx for TLS
-  (Traefik labels are already in `docker-compose.yml` — edit or remove them).
+  (Traefik labels are already in `docker-compose.yml` - edit or remove them).
 - `api/meta.php` has a basic SSRF guard (refuses private/reserved IPs).

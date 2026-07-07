@@ -99,7 +99,7 @@ $vSize = 46;
 while ($vSize > 28 && tw($vSize,$FB,$verdict) > 760) $vSize -= 2;
 text($im,$vSize,$FB,$PADX,410,$vc,$verdict);
 
-/* ---- gauge (right) — supersampled for smooth edges ---- */
+/* ---- gauge (right) - supersampled for smooth edges ---- */
 $gx=1000; $gy=315; $gd=230; $thick=26;
 $frac = $human ? 1.0 : $score/100;
 $arcRGB = $human ? [5,150,105] : [99,102,241];

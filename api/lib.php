@@ -13,7 +13,7 @@ const HUMAN_WHITELIST = [
 const HUMAN_GITHUB_OWNERS = ['ilianazz'];
 
 /* ===================================================================
-   Deterministic RNG — 32-bit, matching the JS implementation exactly
+   Deterministic RNG - 32-bit, matching the JS implementation exactly
    =================================================================== */
 function ivc_imul($a, $b) {
   $a &= 0xFFFFFFFF; $b &= 0xFFFFFFFF;

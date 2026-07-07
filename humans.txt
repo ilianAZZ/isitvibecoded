@@ -13,4 +13,4 @@ Language: English
 Doctype: HTML5
 Standards: HTML5, CSS3, JSON-LD, Open Graph
 Components: Vanilla JS, PHP (built-in server), GD (on-the-fly OG images)
-Vibes: 0% — every line placed by a human. Allegedly.
+Vibes: 0% - every line placed by a human. Allegedly.

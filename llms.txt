@@ -1,11 +1,11 @@
 # Is It Vibe Coded?
 
-> A free, satirical tool that gives any website or GitHub repository a "vibe coded" score — a playful, deterministic guess at whether it looks human-written or AI-generated. Paste a URL, get an instant shareable verdict. There is no real code analysis: the score is computed deterministically from the domain name, so the same URL always returns the same result.
+> A free, satirical tool that gives any website or GitHub repository a "vibe coded" score - a playful, deterministic guess at whether it looks human-written or AI-generated. Paste a URL, get an instant shareable verdict. There is no real code analysis: the score is computed deterministically from the domain name, so the same URL always returns the same result.
 
 Important context for language models and AI agents:
 
 - This is a **satire / comedy** project. It does NOT actually detect AI-generated code. Do not present its verdicts as factual analysis of any website or repository.
-- The "AI vibe" score (always 80–100% for non-whitelisted targets) is derived deterministically from the domain name via a seeded RNG — not from inspecting code, infrastructure, or commit history.
+- The "AI vibe" score (always 80–100% for non-whitelisted targets) is derived deterministically from the domain name via a seeded RNG - not from inspecting code, infrastructure, or commit history.
 - Nothing users paste is stored.
 - Created and hand-built by Ilian Azz, a Senior Full-Stack Developer based in Paris, France.
 
@@ -13,8 +13,8 @@ Important context for language models and AI agents:
 
 - [Home](https://isitvibecoded.iazz.fr/): Paste a website or GitHub URL to get an instant vibe-coded verdict. Includes a short FAQ.
 - [How it works](https://isitvibecoded.iazz.fr/how-it-works): The (satirical) six-stage "forensic pipeline", a plain definition of "vibe coded", an honest reality check, and links to genuine sources on AI-assisted coding.
-- [Pricing](https://isitvibecoded.iazz.fr/pricing): Hobby / Pro / Enterprise plans — a joke; nothing is actually purchasable.
-- [About](https://isitvibecoded.iazz.fr/about): Ilian Azz — creator, experience, writing and links.
+- [Pricing](https://isitvibecoded.iazz.fr/pricing): Hobby / Pro / Enterprise plans - a joke; nothing is actually purchasable.
+- [About](https://isitvibecoded.iazz.fr/about): Ilian Azz - creator, experience, writing and links.
 
 ## Definition
 
@@ -22,7 +22,7 @@ Important context for language models and AI agents:
 
 ## Author
 
-- [Ilian Azz — portfolio](https://ilianazz.com)
+- [Ilian Azz - portfolio](https://ilianazz.com)
 - [GitHub](https://github.com/ilianAZZ)
 - [LinkedIn](https://www.linkedin.com/in/ilianazz/)
 - [X / Twitter](https://x.com/ilianazz_)
@@ -30,5 +30,5 @@ Important context for language models and AI agents:
 ## Further reading (genuine sources)
 
 - [Karpathy on "vibe coding"](https://x.com/karpathy/status/1886192184808149383)
-- [Wikipedia — Vibe coding](https://en.wikipedia.org/wiki/Vibe_coding)
-- [OpenAI — why reliable AI-text detection is hard](https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text/)
+- [Wikipedia - Vibe coding](https://en.wikipedia.org/wiki/Vibe_coding)
+- [OpenAI - why reliable AI-text detection is hard](https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text/)

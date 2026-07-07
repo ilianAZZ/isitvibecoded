@@ -118,7 +118,7 @@ button.analyze:disabled{opacity:.6;cursor:not-allowed;transform:none;box-shadow:
 .section-h{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:16px 24px 4px;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
 .section-h .count{color:var(--faint);font-weight:600}
 
-/* findings — compact, grouped */
+/* findings - compact, grouped */
 .fgroup{padding:6px 24px 4px}
 .fgroup .cat{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:700;color:var(--ink);margin:14px 0 6px}
 .fgroup .cat .cdot{width:7px;height:7px;border-radius:50%;flex:none}

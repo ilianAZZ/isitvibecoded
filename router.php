@@ -77,11 +77,11 @@ if (!$isTarget) {
   echo "<!doctype html><html lang=\"en\"><head><meta charset=\"UTF-8\">"
      . "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">"
      . "<meta name=\"robots\" content=\"noindex, follow\">"
-     . "<title>404 — Not found · Is It Vibe Coded?</title>"
+     . "<title>404 - Not found · Is It Vibe Coded?</title>"
      . "<link rel=\"icon\" type=\"image/svg+xml\" href=\"/assets/favicon.svg\">"
      . "<link rel=\"stylesheet\" href=\"/assets/css/styles.css\"></head>"
      . "<body><main class=\"wrap\" style=\"text-align:center;padding:80px 20px\">"
-     . "<h1>404 — nothing to analyze here</h1>"
+     . "<h1>404 - nothing to analyze here</h1>"
      . "<p class=\"sub\">That path isn't a website or a GitHub repo. "
      . "Paste a real URL on the <a href=\"/\">home page</a>.</p>"
      . "<p><a class=\"analyze\" href=\"/\" style=\"display:inline-flex;text-decoration:none;padding:12px 24px;border-radius:12px;margin-top:16px\">Go home →</a></p>"
@@ -108,11 +108,11 @@ if ($t) {
 
   $verdict = $human
     ? '100% human-written'
-    : $score . '% AI vibe — likely vibe coded';
+    : $score . '% AI vibe - likely vibe coded';
   $title = $domain . ' is ' . ($human ? '100% human-written' : $score . '% vibe coded') . ' · Is It Vibe Coded?';
 
   $snippet = $meta['description'] !== '' ? ' “' . mb_substr($meta['description'], 0, 120) . '”.' : '';
-  $desc = $domain . ' scored ' . ($human ? '0% AI vibe' : $score . '% AI vibe') . ' — ' . $verdict . '.' . $snippet . ' Free, instant AI code detection.';
+  $desc = $domain . ' scored ' . ($human ? '0% AI vibe' : $score . '% AI vibe') . ' - ' . $verdict . '.' . $snippet . ' Free, instant AI code detection.';
 
   $canonUrl = 'https://isitvibecoded.iazz.fr/' . implode('/', array_map('rawurlencode', explode('/', $t['display'])));
   $ogImg    = 'https://isitvibecoded.iazz.fr/api/og?url=' . rawurlencode($t['fetchArg']);
@@ -126,7 +126,7 @@ if ($t) {
   $block .= '<meta property="og:description" content="' . $e($desc) . "\">\n";
   $block .= '<meta property="og:url" content="' . $e($canonUrl) . "\">\n";
   $block .= '<meta property="og:image" content="' . $e($ogImg) . "\">\n";
-  $block .= '<meta property="og:image:alt" content="' . $e($domain . ' — ' . ($human ? '100% human' : $score . '% AI vibe')) . "\">\n";
+  $block .= '<meta property="og:image:alt" content="' . $e($domain . ' - ' . ($human ? '100% human' : $score . '% AI vibe')) . "\">\n";
   $block .= '<meta name="twitter:title" content="' . $e($title) . "\">\n";
   $block .= '<meta name="twitter:description" content="' . $e($desc) . "\">\n";
   $block .= '<meta name="twitter:image" content="' . $e($ogImg) . "\">\n";

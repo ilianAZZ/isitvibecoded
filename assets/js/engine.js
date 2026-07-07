@@ -1,5 +1,5 @@
 /* =====================================================================
-   IS IT VIBE CODED? — forensic engine (deterministic, satirical)
+   IS IT VIBE CODED? - forensic engine (deterministic, satirical)
    ===================================================================== */
 
 /* ---- CONFIG: whitelisted human domains (reported 0% AI) ---- */
@@ -16,7 +16,7 @@ const HUMAN_GITHUB_OWNERS = ["ilianazz"];
 
 /* ---- CONFIG: "Best human apps" showcase ---- */
 const BEST_HUMAN_APPS = [
-  { name:"Ilian Azz",       url:"https://ilianazz.com",     icon:"/assets/icons/ilianazz.png",     blurb:"Personal portfolio — every pixel placed by a human hand." },
+  { name:"Ilian Azz",       url:"https://ilianazz.com",     icon:"/assets/icons/ilianazz.png",     blurb:"Personal portfolio - every pixel placed by a human hand." },
   { name:"Mutka",           url:"https://mutka.app",        icon:"/assets/icons/mutka.png",        blurb:"Hand-forged product. No autocomplete was harmed." },
   { name:"Kadrella",        url:"https://kadrella.com", icon:"/assets/icons/kadrella.png",blurb:"Artisanal tutoring platform, coded on real caffeine since 2023." },
   { name:"Unlimited Messaging", url:"https://unlimitedmessaging.app", icon:"/assets/icons/unlimitedmessaging.png", blurb:"Secure, unlimited and free API to send messages." },
@@ -260,7 +260,7 @@ function runLoader(done){
     p+=1.4+Math.random()*3.2;
     if(p>100)p=100;
     $("#bar").style.width=p.toFixed(0)+"%";
-    $("#pct").textContent=Math.floor(p)+"% — deep forensic scan in progress";
+    $("#pct").textContent=Math.floor(p)+"% - deep forensic scan in progress";
     const si=Math.min(SCAN_STEPS.length-1,Math.floor(p/100*SCAN_STEPS.length));
     if(si!==step){
       step=si;
@@ -317,7 +317,7 @@ async function analyze(raw,fromRoute){
 
   if(!fromRoute){
     history.pushState({},"","/"+t.display.split("/").map(encodeURIComponent).join("/"));
-    document.title="Is "+t.display+" vibe coded? — Is It Vibe Coded?";
+    document.title="Is "+t.display+" vibe coded? - Is It Vibe Coded?";
   }
 
   // kick off meta fetch in parallel with the (deliberately long) loader
@@ -357,7 +357,7 @@ function render(rep,meta){
   if(rep.human){
     tag.className="tag human";tag.textContent="✋ 100% Human-Written";
     title.textContent="Certified hand-crafted";
-    blurb.textContent="Our engine found coffee stains, honest TODOs and genuine 3 AM despair. This is the real deal — no vibes detected.";
+    blurb.textContent="Our engine found coffee stains, honest TODOs and genuine 3 AM despair. This is the real deal - no vibes detected.";
     arc.style.stroke="#059669";
     document.querySelector(".num span").textContent="AI vibe";
   }else{
