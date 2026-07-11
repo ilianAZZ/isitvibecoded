@@ -24,13 +24,7 @@ if ($seg === 'api') {
   return true;
 }
 
-/* Legacy /favicon.ico probes → point at the real icon (avoids soft-404 HTML). */
-if ($path === 'favicon.ico') {
-  header('Location: /assets/favicon-32.png', true, 301);
-  return true;
-}
-
-/* Let the built-in server serve any real file that exists (assets, etc.) */
+/* Let the built-in server serve any real file that exists (assets, favicon.ico, etc.) */
 $candidate = __DIR__ . '/' . $path;
 if ($path !== '' && is_file($candidate) && strpos(realpath($candidate) ?: '', __DIR__) === 0) {
   return false; // built-in server streams it with the correct MIME type
